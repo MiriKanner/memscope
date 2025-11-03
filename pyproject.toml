@@ -5,7 +5,7 @@ description = "Analyze and simulate dynamic memory usage in C/C++ code"
 authors = [{name = "Miriam Kanner", email = "m0534147159@email.com"}]
 readme = "README.md"
 license = {text = "MIT"}
-dependencies = []
+dependencies = ["matplotlib"]
 
 [build-system]
 requires = ["setuptools"]
