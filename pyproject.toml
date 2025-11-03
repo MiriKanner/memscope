@@ -1,6 +1,6 @@
 [project]
 name = "memscope"
-version = "0.1.0"
+version = "0.1.1"
 description = "Analyze and simulate dynamic memory usage in C/C++ code"
 authors = [{name = "Miriam Kanner", email = "m0534147159@email.com"}]
 readme = "README.md"
