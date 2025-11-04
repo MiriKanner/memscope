@@ -1,7 +1,7 @@
 import re
 import os
 
-ALLOC_PATTERN = re.compile(r'\b(malloc|calloc|realloc|new(\[\])?)\b')
+ALLOC_PATTERN = re.compile(r'\b(malloc|calloc|realloc|strdup|asprintf|new(\[\])?)\b')
 FREE_PATTERN = re.compile(r'\b(free|delete(\[\])?)\b')
 
 def analyze_source(filepath):
